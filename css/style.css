@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right,#1F1F1F,#2E2E2E,#3D3D3D,#4D4D4D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 100vh;
+    
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    padding: 3px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #4b4b4b8b;
+}
+
+select{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: #4b4b4b8b;
+}
+
+input[type="submit"], input[type="reset"]{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+    background: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#mostrar{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background: #fff;
+    color: #000;
+    cursor: pointer;  
+}
